@@ -284,7 +284,7 @@ opacity: 0; /* Initially hide the card */
 @media (max-width: 320px) {
     
     .hero-1{
-        width: 300px;
+        width: auto;
         display: flex;
         flex-direction: column;
     }
@@ -301,38 +301,30 @@ opacity: 0; /* Initially hide the card */
         font-size: 1.5rem;
     }
     .hero-2{
-        display: none;
+        width: auto;
     }
 }
 
 
-
-.body ul{
+.body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-   list-style: none;
 }
-
-.head h4{
-    text-align: center;
-    padding: 2rem 2rem;
+ h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     font-weight: 900;
 }
-.body .ul .tech{
-    background-color: #80BCBD;
-    padding: 1rem;
-    border-left: 2px solid #0d6efd;
-    margin-right: 1rem;
-    box-shadow: 2px 4px 8px 4px #ccc;
-    color: #fff;
-    width: 200px;
+ .ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+color: #000;
 }
-
+.tech{
+    margin-right: 2rem;
+}
 .card-link{
     text-decoration: none;
     color: #00E77F;
