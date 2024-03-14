@@ -1,0 +1,342 @@
+
+
+
+
+body{
+    scroll-behavior: smooth;
+    
+}
+
+.carding {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    transition: all 0.3s ease;
+    background: #fff;
+box-shadow: 0 12px 2px 0 rgba(5, 5, 5, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+   
+  }
+  
+  .carding:hover {
+    border: none;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    height: 300px;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .topics {
+    display: none;
+    position: absolute;
+   left: 0;
+   top: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: #80BCBD;
+    color: #fff ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+  }
+  #h6{
+    color: #000;
+    font-weight: 900;
+  }
+  .carding:hover .topics {
+    display: block;
+  }
+
+  
+.nav{
+    position: sticky;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.nav-link{
+    margin-left: 1rem;
+    text-align: center;
+    
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-1{
+    
+    width: 600px;
+    
+}
+
+.hero-2{
+    
+    width: 600px;
+   
+}
+
+.hero-image{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.material-symbols-outlined{
+    padding-top: 20px;
+}
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section-2{
+    background: #D5F0C1;
+}
+
+.card.animation {
+    opacity: 1; /* Show the card */
+    transform: translateY(0); /* Move the card to its original position */
+    transition: opacity 1s ease, transform 0.5s ease; /* Add transition for smooth animation */
+  }
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 12px 2px 0 rgba(75, 79, 142, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+opacity: 0; /* Initially hide the card */
+  transform: translateY(50px);
+}
+
+.card-body{
+    opacity: .6;
+}
+
+.card-body:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    border-top: 3px solid rgb(250, 13, 13);
+}
+
+/* #skills::before, #skills::after{
+    content: "";
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+    background: #6852ba;
+    position: absolute;
+    z-index: -1;
+    filter:blur(15px);
+} */
+
+::-webkit-scrollbar{
+    height: 5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--white);
+    border-radius: 20rem;
+}
+.skill{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #000;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.certification-titile{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    
+}
+.title-card{
+    color: #0d6efd;
+}
+.bi{
+    color: black;
+}
+#h3{
+    text-align: center;
+    padding-top: 2rem;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fa-diagram-project{
+    color: #0d6efd;
+}
+
+.projectsCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#projects{
+     background: #AAD9BB;
+}
+
+
+.certification-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#certification-card{
+    border-radius: 50px;
+    border: none;
+    padding: 1rem;
+    transform: none;
+    box-shadow: 8px 2px 2px 2px rgba(75, 79, 142, 0.37);
+}
+
+.fas {
+    color: #00E77F;
+    
+}
+
+.fa-brands{
+    color: #00E77F;
+    text-shadow: 2px 4px 4px #000;
+    font-size: 1.3rem;
+    
+}
+
+#a{
+    margin: 2rem;
+    text-decoration: none;
+    
+}
+
+.f{
+    font-size: 2rem;
+}
+
+.links-for-connect{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    
+    .hero-1{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .links-for-connect{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .btn{
+        background: none;
+    }
+    .f{
+        font-size: 1.5rem;
+    }
+    .hero-2{
+        display: none;
+    }
+}
+
+
+
+.body ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   list-style: none;
+}
+
+.head h4{
+    text-align: center;
+    padding: 2rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.body .ul .tech{
+    background-color: #80BCBD;
+    padding: 1rem;
+    border-left: 2px solid #0d6efd;
+    margin-right: 1rem;
+    box-shadow: 2px 4px 8px 4px #ccc;
+    color: #fff;
+    width: 200px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #00E77F;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
